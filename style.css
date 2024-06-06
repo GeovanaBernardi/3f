@@ -62,18 +62,18 @@ span{
  }
  .aba-conteudo{
      background-color: var(--texto-fundo);
-     display: nome;
+     display: none;
  }
-.aba-conteudo,.ativo{
-    display: flex;
+.aba-conteudo.ativo{
+    display: block;
 }
 
  .aba-conteudo{
     display: nome;
 }
- .aba-conteudo.ativo{
-     display: block;
- }
+.aba-conteudo.ativo{
+    display: block;
+}
 
 @media screen and (min-width:700px){
 
