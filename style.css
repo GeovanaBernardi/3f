@@ -64,9 +64,17 @@ span{
      background-color: var(--texto-fundo);
      display: nome;
  }
-.aba-conteudo, .ativo{
+.aba-conteudo,.ativo{
     display: flex;
 }
+
+ .aba-conteudo{
+    display: nome;
+}
+ .aba-conteudo.ativo{
+     display: block;
+ }
+
 @media screen and (min-width:700px){
 
     .botoes{
